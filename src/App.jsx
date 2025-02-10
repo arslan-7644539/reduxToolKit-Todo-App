@@ -1,7 +1,6 @@
-// import React from "react";
 import AddTodo from "./componets/AddTodo";
-import ShowTodo from "./componets/ShowTodo";
 import { Container, Typography } from "@mui/material";
+// ==========================================================
 
 const App = () => {
   return (
@@ -10,7 +9,6 @@ const App = () => {
         Redux Todo List
       </Typography>
       <AddTodo />
-      <ShowTodo />
     </Container>
   );
 };
